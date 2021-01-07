@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<solace-java-sample-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "demo.DemoApplication",
+            "projectName": "solace-java-sample-app",
+            "args": ""
+        }
+    ]
+}
