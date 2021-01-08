@@ -34,7 +34,7 @@ public class AsyncPublisherConfig implements AsyncConfigurer{
         // 等待时间 （默认为0，此时立即停止），并没等待xx秒后强制停止
         threadPool.setAwaitTerminationSeconds(60);
         //  线程名称前缀
-        threadPool.setThreadNamePrefix("Publisher-Async-");
+        threadPool.setThreadNamePrefix("Pub-Async-");
         // 初始化线程
         threadPool.initialize();
         return threadPool;
